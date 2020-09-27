@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Client-side lz4 compression</title>
+  </head>
+
+  <body>
+
+    <form id="submit_form" method="post" enctype="multipart/form-data">
+      <input type="file" name="files[]" multiple />
+      <input id="compress_button" type="submit" value="Compress File" name="compress" />
+      <input id="decompress_button" type="submit" value="Decompress File" name="decompress" />
+    </form>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="wasm_compressor.js"> </script>
+    <script src="handle_upload.js"></script>
+  </body>
+</html>
