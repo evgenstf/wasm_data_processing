@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+emcc main.cpp --std=c++17 -o gcd.html -s EXPORTED_FUNCTIONS='["_calculate_gcd"]' -s EXTRA_EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
+
+# emcc main.cpp -o gcd.js --std=c++17 -s EXPORT_ALL=1
+
