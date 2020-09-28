@@ -133,7 +133,7 @@ function wasmPtrToArray(ptr, length) {
 }
 ```
 
-Полный скрипт обработки входящих файлов лежит [тут](https://github.com/evgenstf/wasm_data_processing/blob/master/html_sample/handle_upload.js). HTML-разметка, содержащая форму загруÐ·ки файла и подгрузку wasm артефактов [здесь](https://github.com/evgenstf/wasm_data_processing/blob/master/html_sample/index.html).
+Полный скрипт обработки входящих файлов лежит [тут](https://github.com/evgenstf/wasm_data_processing/blob/master/lz4_compression_sample/handle_upload.js). HTML-разметка, содержащая форму загруÐ·ки файла и подгрузку wasm артефактов [здесь](https://github.com/evgenstf/wasm_data_processing/blob/master/lz4_compression_sample/index.html).
 
 ## Итог
 
